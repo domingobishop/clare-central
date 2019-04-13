@@ -1,13 +1,28 @@
+body {
+    font-family: 'Heebo', sans-serif;
+}
 .bg-primary {
-    background-color: #2a3b80!important;
+    background-color: #1e298f!important;
 }
 .btn-primary {
     color: #fff;
-    background-color: #2a3b80;
-    border-color: #2a3b80;
+    background-color: #1e298f;
+    border-color: #1e298f;
 }
 hr.divider {
-    border-color: #2a3b80;
+    border-color: #1e298f;
+}
+a {
+    color: #1e298f;
+}
+.text-primary {
+    color: #1e298f!important;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #e9625f!important;
+}
+hr.red {
+    border-color: #e9625f;
 }
 .text-white-50 {
     color: rgba(255,255,255,.9)!important;
@@ -22,4 +37,7 @@ hr.divider {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+}
+.map {
+    height: 360px;
 }
