@@ -1,6 +1,14 @@
 body {
     font-family: 'Heebo', sans-serif;
 }
+header.masthead {
+    background: -webkit-gradient(linear,left top,left bottom,from(rgba(92,77,66,.4)),to(rgba(92,77,66,.4))),url(../img/bg-masthead.jpg);
+    background: linear-gradient(to bottom,rgba(92,77,66,.4) 0,rgba(92,77,66,.4) 100%),url(../img/bg-masthead.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 .bg-primary {
     background-color: #1e298f!important;
 }
@@ -8,6 +16,9 @@ body {
     color: #fff;
     background-color: #1e298f;
     border-color: #1e298f;
+}
+.navbar-brand img {
+    max-height: 30px;
 }
 hr.divider {
     border-color: #1e298f;
@@ -20,6 +31,9 @@ a {
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
     color: #e9625f!important;
+}
+.nav-item .fa-facebook, .social-link .fab {
+    font-size: 1.3em !important;
 }
 hr.red {
     border-color: #e9625f;
