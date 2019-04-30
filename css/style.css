@@ -58,3 +58,17 @@ hr.red {
 .map {
     height: 360px;
 }
+@media (max-width: 768px) {
+    header.masthead {
+        background-attachment: scroll;
+    }
+    #mainNav {
+        background-color: #fff;
+    }
+    #portfolio .col-sm-4 {
+        width: 50%;
+    }
+    #burger {
+        text-align: center;
+    }
+}
